@@ -1,12 +1,12 @@
 {
-  "uid" : "8fe1818275fc9cd3",
+  "uid" : "4438ebf2f6c50de8",
   "name" : "Verify correct user can login",
   "fullName" : "Verify correct user can login",
   "historyId" : "a753d60309dfff91aab4d2b4d018ac43",
   "time" : {
-    "start" : 1631611979312,
-    "stop" : 1631611995102,
-    "duration" : 15790
+    "start" : 1631612750423,
+    "stop" : 1631612761450,
+    "duration" : 11027
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,39 +17,9 @@
     "steps" : [ {
       "name" : "visit (\"/\")",
       "time" : {
-        "start" : 1631611979340,
-        "stop" : 1631611982575,
-        "duration" : 3235
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST /vendure-shop-api",
-      "time" : {
-        "start" : 1631611982574,
-        "stop" : 1631611982574,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST /vendure-shop-api",
-      "time" : {
-        "start" : 1631611982574,
-        "stop" : 1631611982574,
-        "duration" : 0
+        "start" : 1631612750445,
+        "stop" : 1631612753412,
+        "duration" : 2967
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +32,9 @@
     }, {
       "name" : "contains (\"a\"; \"Login\")",
       "time" : {
-        "start" : 1631611982575,
-        "stop" : 1631611982619,
-        "duration" : 44
+        "start" : 1631612753412,
+        "stop" : 1631612753430,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +47,39 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1631611982619,
-        "stop" : 1631611982776,
-        "duration" : 157
+        "start" : 1631612753430,
+        "stop" : 1631612753598,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /vendure-shop-api",
+      "time" : {
+        "start" : 1631612753597,
+        "stop" : 1631612753597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /vendure-shop-api",
+      "time" : {
+        "start" : 1631612753597,
+        "stop" : 1631612753597,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,8 +92,8 @@
     }, {
       "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search.json",
       "time" : {
-        "start" : 1631611982775,
-        "stop" : 1631611982775,
+        "start" : 1631612753597,
+        "stop" : 1631612753597,
         "duration" : 0
       },
       "status" : "passed",
@@ -107,8 +107,8 @@
     }, {
       "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US.json",
       "time" : {
-        "start" : 1631611982775,
-        "stop" : 1631611982775,
+        "start" : 1631612753597,
+        "stop" : 1631612753597,
         "duration" : 0
       },
       "status" : "passed",
@@ -122,38 +122,8 @@
     }, {
       "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US/cart.json",
       "time" : {
-        "start" : 1631611982775,
-        "stop" : 1631611982775,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/categories.json",
-      "time" : {
-        "start" : 1631611982776,
-        "stop" : 1631611982776,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/brands.json",
-      "time" : {
-        "start" : 1631611982776,
-        "stop" : 1631611982776,
+        "start" : 1631612753597,
+        "stop" : 1631612753597,
         "duration" : 0
       },
       "status" : "passed",
@@ -167,9 +137,9 @@
     }, {
       "name" : "get (\"input[type=email]\")",
       "time" : {
-        "start" : 1631611982776,
-        "stop" : 1631611982790,
-        "duration" : 14
+        "start" : 1631612753598,
+        "stop" : 1631612753607,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -182,9 +152,39 @@
     }, {
       "name" : "type (\"artem.a@trustana.com\")",
       "time" : {
-        "start" : 1631611982790,
-        "stop" : 1631611983386,
-        "duration" : 596
+        "start" : 1631612753607,
+        "stop" : 1631612754304,
+        "duration" : 697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/categories.json",
+      "time" : {
+        "start" : 1631612754301,
+        "stop" : 1631612754301,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/brands.json",
+      "time" : {
+        "start" : 1631612754301,
+        "stop" : 1631612754301,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -197,8 +197,8 @@
     }, {
       "name" : "GET 200 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/small-orders.json",
       "time" : {
-        "start" : 1631611983386,
-        "stop" : 1631611983386,
+        "start" : 1631612754301,
+        "stop" : 1631612754301,
         "duration" : 0
       },
       "status" : "passed",
@@ -212,8 +212,8 @@
     }, {
       "name" : "GET 304 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search.json",
       "time" : {
-        "start" : 1631611983386,
-        "stop" : 1631611983386,
+        "start" : 1631612754301,
+        "stop" : 1631612754301,
         "duration" : 0
       },
       "status" : "passed",
@@ -227,8 +227,8 @@
     }, {
       "name" : "GET 304 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search.json",
       "time" : {
-        "start" : 1631611983386,
-        "stop" : 1631611983386,
+        "start" : 1631612754302,
+        "stop" : 1631612754302,
         "duration" : 0
       },
       "status" : "passed",
@@ -240,10 +240,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 200 /_next/static/css/7d742d711f9863998e82.css",
+      "name" : "GET /_next/static/css/7d742d711f9863998e82.css",
       "time" : {
-        "start" : 1631611983386,
-        "stop" : 1631611983386,
+        "start" : 1631612754302,
+        "stop" : 1631612754302,
         "duration" : 0
       },
       "status" : "passed",
@@ -257,9 +257,9 @@
     }, {
       "name" : "get (\"input[type=password]\")",
       "time" : {
-        "start" : 1631611983386,
-        "stop" : 1631611983396,
-        "duration" : 10
+        "start" : 1631612754305,
+        "stop" : 1631612754312,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -272,9 +272,9 @@
     }, {
       "name" : "type (\"Qwerty1%\")",
       "time" : {
-        "start" : 1631611983396,
-        "stop" : 1631611983697,
-        "duration" : 301
+        "start" : 1631612754312,
+        "stop" : 1631612754639,
+        "duration" : 327
       },
       "status" : "passed",
       "steps" : [ ],
@@ -287,9 +287,9 @@
     }, {
       "name" : "contains (\"button>span\"; \"Log In\")",
       "time" : {
-        "start" : 1631611983697,
-        "stop" : 1631611983718,
-        "duration" : 21
+        "start" : 1631612754639,
+        "stop" : 1631612754648,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -302,9 +302,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1631611983718,
-        "stop" : 1631611983827,
-        "duration" : 109
+        "start" : 1631612754648,
+        "stop" : 1631612754802,
+        "duration" : 154
       },
       "status" : "passed",
       "steps" : [ ],
@@ -317,8 +317,8 @@
     }, {
       "name" : "POST /vendure-shop-api",
       "time" : {
-        "start" : 1631611983827,
-        "stop" : 1631611983827,
+        "start" : 1631612754801,
+        "stop" : 1631612754801,
         "duration" : 0
       },
       "status" : "passed",
@@ -332,9 +332,9 @@
     }, {
       "name" : "contains (\"Logged in as \")",
       "time" : {
-        "start" : 1631611983827,
-        "stop" : 1631611995047,
-        "duration" : 11220
+        "start" : 1631612754802,
+        "stop" : 1631612761426,
+        "duration" : 6624
       },
       "status" : "passed",
       "steps" : [ ],
@@ -347,8 +347,8 @@
     }, {
       "name" : "POST 200 /vendure-shop-api",
       "time" : {
-        "start" : 1631611995047,
-        "stop" : 1631611995047,
+        "start" : 1631612761426,
+        "stop" : 1631612761426,
         "duration" : 0
       },
       "status" : "passed",
@@ -362,9 +362,9 @@
     }, {
       "name" : "find (\"a\")",
       "time" : {
-        "start" : 1631611995047,
-        "stop" : 1631611995057,
-        "duration" : 10
+        "start" : 1631612761426,
+        "stop" : 1631612761435,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -377,9 +377,9 @@
     }, {
       "name" : "first",
       "time" : {
-        "start" : 1631611995057,
-        "stop" : 1631611995101,
-        "duration" : 44
+        "start" : 1631612761435,
+        "stop" : 1631612761449,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -392,8 +392,8 @@
     }, {
       "name" : "expected **<a>** to have text **Artem** assert",
       "time" : {
-        "start" : 1631611995101,
-        "stop" : 1631611995101,
+        "start" : 1631612761449,
+        "stop" : 1631612761449,
         "duration" : 0
       },
       "status" : "passed",
@@ -440,6 +440,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8fe1818275fc9cd3.json",
+  "source" : "4438ebf2f6c50de8.json",
   "parameterValues" : [ ]
 }
