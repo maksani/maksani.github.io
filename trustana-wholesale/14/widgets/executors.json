@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://maksani.github.io/trustana-wholesale",
+  "buildOrder" : 14,
+  "buildName" : "GitHub Actions Run #1233065781",
+  "buildUrl" : "https://github.com/maksani/trustana-wholesale/actions/runs/1233065781",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://maksani.github.io/trustana-wholesale/14/"
+} ]

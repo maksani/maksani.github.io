@@ -1,0 +1,22 @@
+{
+  "a753d60309dfff91aab4d2b4d018ac43" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fe1818275fc9cd3",
+      "reportUrl" : "https://maksani.github.io/trustana-wholesale/14//#testresult/8fe1818275fc9cd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631611979312,
+        "stop" : 1631611995102,
+        "duration" : 15790
+      }
+    } ]
+  }
+}
