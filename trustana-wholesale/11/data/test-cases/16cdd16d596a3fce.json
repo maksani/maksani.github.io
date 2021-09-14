@@ -1,12 +1,12 @@
 {
-  "uid" : "ccd7ebae4a307077",
+  "uid" : "16cdd16d596a3fce",
   "name" : "Verify correct user can login",
   "fullName" : "Verify correct user can login",
   "historyId" : "a753d60309dfff91aab4d2b4d018ac43",
   "time" : {
-    "start" : 1631608737192,
-    "stop" : 1631608747754,
-    "duration" : 10562
+    "start" : 1631608952462,
+    "stop" : 1631608965403,
+    "duration" : 12941
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "visit (\"/\")",
       "time" : {
-        "start" : 1631608737249,
-        "stop" : 1631608740245,
-        "duration" : 2996
+        "start" : 1631608952505,
+        "stop" : 1631608955614,
+        "duration" : 3109
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,8 +32,8 @@
     }, {
       "name" : "contains (\"a\"; \"Login\")",
       "time" : {
-        "start" : 1631608740245,
-        "stop" : 1631608740268,
+        "start" : 1631608955614,
+        "stop" : 1631608955637,
         "duration" : 23
       },
       "status" : "passed",
@@ -47,9 +47,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1631608740268,
-        "stop" : 1631608740495,
-        "duration" : 227
+        "start" : 1631608955637,
+        "stop" : 1631608955846,
+        "duration" : 209
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,8 +62,8 @@
     }, {
       "name" : "POST /vendure-shop-api",
       "time" : {
-        "start" : 1631608740494,
-        "stop" : 1631608740494,
+        "start" : 1631608955845,
+        "stop" : 1631608955845,
         "duration" : 0
       },
       "status" : "passed",
@@ -77,8 +77,8 @@
     }, {
       "name" : "POST /vendure-shop-api",
       "time" : {
-        "start" : 1631608740494,
-        "stop" : 1631608740494,
+        "start" : 1631608955845,
+        "stop" : 1631608955845,
         "duration" : 0
       },
       "status" : "passed",
@@ -92,8 +92,8 @@
     }, {
       "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search.json",
       "time" : {
-        "start" : 1631608740494,
-        "stop" : 1631608740494,
+        "start" : 1631608955845,
+        "stop" : 1631608955845,
         "duration" : 0
       },
       "status" : "passed",
@@ -107,8 +107,8 @@
     }, {
       "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US.json",
       "time" : {
-        "start" : 1631608740494,
-        "stop" : 1631608740494,
+        "start" : 1631608955845,
+        "stop" : 1631608955845,
         "duration" : 0
       },
       "status" : "passed",
@@ -122,8 +122,38 @@
     }, {
       "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US/cart.json",
       "time" : {
-        "start" : 1631608740494,
-        "stop" : 1631608740494,
+        "start" : 1631608955846,
+        "stop" : 1631608955846,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/categories.json",
+      "time" : {
+        "start" : 1631608955846,
+        "stop" : 1631608955846,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/brands.json",
+      "time" : {
+        "start" : 1631608955846,
+        "stop" : 1631608955846,
         "duration" : 0
       },
       "status" : "passed",
@@ -137,9 +167,9 @@
     }, {
       "name" : "get (\"input[type=email]\")",
       "time" : {
-        "start" : 1631608740495,
-        "stop" : 1631608740510,
-        "duration" : 15
+        "start" : 1631608955846,
+        "stop" : 1631608955855,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -152,39 +182,9 @@
     }, {
       "name" : "type (\"artem.a@trustana.com\")",
       "time" : {
-        "start" : 1631608740510,
-        "stop" : 1631608741078,
-        "duration" : 568
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET 200 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/categories.json",
-      "time" : {
-        "start" : 1631608741074,
-        "stop" : 1631608741074,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET 200 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/brands.json",
-      "time" : {
-        "start" : 1631608741077,
-        "stop" : 1631608741077,
-        "duration" : 0
+        "start" : 1631608955855,
+        "stop" : 1631608956445,
+        "duration" : 590
       },
       "status" : "passed",
       "steps" : [ ],
@@ -197,8 +197,8 @@
     }, {
       "name" : "GET 200 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search/small-orders.json",
       "time" : {
-        "start" : 1631608741077,
-        "stop" : 1631608741077,
+        "start" : 1631608956444,
+        "stop" : 1631608956444,
         "duration" : 0
       },
       "status" : "passed",
@@ -212,8 +212,8 @@
     }, {
       "name" : "GET 304 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search.json",
       "time" : {
-        "start" : 1631608741077,
-        "stop" : 1631608741077,
+        "start" : 1631608956444,
+        "stop" : 1631608956444,
         "duration" : 0
       },
       "status" : "passed",
@@ -227,8 +227,23 @@
     }, {
       "name" : "GET 304 /_next/data/B4usaXW2n7affpyPhvBDE/en-US/search.json",
       "time" : {
-        "start" : 1631608741078,
-        "stop" : 1631608741078,
+        "start" : 1631608956445,
+        "stop" : 1631608956445,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /_next/static/css/7d742d711f9863998e82.css",
+      "time" : {
+        "start" : 1631608956445,
+        "stop" : 1631608956445,
         "duration" : 0
       },
       "status" : "passed",
@@ -242,9 +257,9 @@
     }, {
       "name" : "get (\"input[type=password]\")",
       "time" : {
-        "start" : 1631608741078,
-        "stop" : 1631608741090,
-        "duration" : 12
+        "start" : 1631608956445,
+        "stop" : 1631608956452,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -257,24 +272,9 @@
     }, {
       "name" : "type (\"Qwerty1%\")",
       "time" : {
-        "start" : 1631608741091,
-        "stop" : 1631608741454,
-        "duration" : 363
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET 200 /_next/static/css/7d742d711f9863998e82.css",
-      "time" : {
-        "start" : 1631608741454,
-        "stop" : 1631608741454,
-        "duration" : 0
+        "start" : 1631608956452,
+        "stop" : 1631608956784,
+        "duration" : 332
       },
       "status" : "passed",
       "steps" : [ ],
@@ -287,9 +287,9 @@
     }, {
       "name" : "contains (\"button>span\"; \"Log In\")",
       "time" : {
-        "start" : 1631608741455,
-        "stop" : 1631608741485,
-        "duration" : 30
+        "start" : 1631608956784,
+        "stop" : 1631608956795,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -302,9 +302,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1631608741485,
-        "stop" : 1631608741608,
-        "duration" : 123
+        "start" : 1631608956795,
+        "stop" : 1631608956930,
+        "duration" : 135
       },
       "status" : "passed",
       "steps" : [ ],
@@ -317,8 +317,8 @@
     }, {
       "name" : "POST /vendure-shop-api",
       "time" : {
-        "start" : 1631608741608,
-        "stop" : 1631608741608,
+        "start" : 1631608956930,
+        "stop" : 1631608956930,
         "duration" : 0
       },
       "status" : "passed",
@@ -332,9 +332,9 @@
     }, {
       "name" : "contains (\"Logged in as \")",
       "time" : {
-        "start" : 1631608741608,
-        "stop" : 1631608747723,
-        "duration" : 6115
+        "start" : 1631608956930,
+        "stop" : 1631608965340,
+        "duration" : 8410
       },
       "status" : "passed",
       "steps" : [ ],
@@ -347,8 +347,8 @@
     }, {
       "name" : "POST 200 /vendure-shop-api",
       "time" : {
-        "start" : 1631608747723,
-        "stop" : 1631608747723,
+        "start" : 1631608965340,
+        "stop" : 1631608965340,
         "duration" : 0
       },
       "status" : "passed",
@@ -362,9 +362,9 @@
     }, {
       "name" : "find (\"a\")",
       "time" : {
-        "start" : 1631608747723,
-        "stop" : 1631608747735,
-        "duration" : 12
+        "start" : 1631608965341,
+        "stop" : 1631608965365,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -377,9 +377,9 @@
     }, {
       "name" : "first",
       "time" : {
-        "start" : 1631608747735,
-        "stop" : 1631608747753,
-        "duration" : 18
+        "start" : 1631608965365,
+        "stop" : 1631608965402,
+        "duration" : 37
       },
       "status" : "passed",
       "steps" : [ ],
@@ -392,8 +392,8 @@
     }, {
       "name" : "expected **<a>** to have text **Artem** assert",
       "time" : {
-        "start" : 1631608747752,
-        "stop" : 1631608747752,
+        "start" : 1631608965401,
+        "stop" : 1631608965401,
         "duration" : 0
       },
       "status" : "passed",
@@ -440,6 +440,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ccd7ebae4a307077.json",
+  "source" : "16cdd16d596a3fce.json",
   "parameterValues" : [ ]
 }

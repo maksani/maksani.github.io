@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 10,
-  "reportUrl" : "https://maksani.github.io/trustana-wholesale/10/",
+  "buildOrder" : 11,
+  "reportUrl" : "https://maksani.github.io/trustana-wholesale/11/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 1,
