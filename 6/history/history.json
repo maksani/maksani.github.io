@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "878c3eb4e52204ed",
+      "reportUrl" : "https://maksani.github.io/trustana-wholesale/6//#testresult/878c3eb4e52204ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631607148855,
+        "stop" : 1631607160339,
+        "duration" : 11484
+      }
+    }, {
       "uid" : "ddf3e1b3d47c1f67",
       "reportUrl" : "https://maksani.github.io/trustana-wholesale/6//#testresult/ddf3e1b3d47c1f67",
       "status" : "passed",
